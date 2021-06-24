@@ -3,7 +3,7 @@
 @font-face
 {
 	font-family: "clothes";
-	src: url("/bitrix/templates/landing24/assets/vendor/icon/icon-clothes/font.woff") format("woff");
+	src: url("/local/templates/landing24/assets/vendor/icon/icon-clothes/font.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
