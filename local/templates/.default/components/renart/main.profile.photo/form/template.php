@@ -1,5 +1,4 @@
-<>
- <div class="popup login-popup" id="userpicPopup">
+<div class="popup login-popup" id="userpicPopup">
 	<div class="close"></div>
 	<div class="popup-content">
 		<h2>Добавление/ изменение фото2</h2>
