@@ -3,7 +3,7 @@
 @font-face
 {
 	font-family: "food-48";
-	src: url("/bitrix/templates/landing24/assets/vendor/icon/icon-food/font.woff") format("woff");
+	src: url("/local/templates/landing24/assets/vendor/icon/icon-food/font.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }

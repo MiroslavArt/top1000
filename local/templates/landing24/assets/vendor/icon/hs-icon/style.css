@@ -3,7 +3,7 @@ dbg: was deleted all font, except woff - it is all what we need
 */
 @font-face {
   font-family: 'hs-icons';
-  src: url('/bitrix/templates/landing24/assets/vendor/icon/hs-icon/font.woff') format('woff');
+  src: url('/local/templates/landing24/assets/vendor/icon/hs-icon/font.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

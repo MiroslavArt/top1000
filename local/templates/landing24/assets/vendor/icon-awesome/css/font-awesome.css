@@ -10,8 +10,8 @@ dbg: was deleted all font, except woff - it is all what we need
 */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/bitrix/templates/landing24/assets/vendor/icon-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
-  url('/bitrix/templates/landing24/assets/vendor/icon-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
+  src: url('/local/templates/landing24/assets/vendor/icon-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+  url('/local/templates/landing24/assets/vendor/icon-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
   font-weight: normal;
   font-style: normal;
 }
