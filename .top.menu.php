@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О рейтинге", 
+		"#about", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Этапы", 
+		"#stages", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Организаторы и партнеры", 
+		"#partners", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Регистрация", 
+		"#register", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"#news", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"#contacts", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

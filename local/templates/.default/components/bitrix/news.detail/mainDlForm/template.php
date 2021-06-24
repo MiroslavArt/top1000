@@ -1,0 +1,1 @@
+<a href="<?=$arResult["DISPLAY_PROPERTIES"]["FILE"]["FILE_VALUE"]["SRC"];?>" target="_blank" class="button button-1 button-dl" onclick="gtag('event','dowload')">Скачать форму регистрации</a>
