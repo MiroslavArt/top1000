@@ -85,8 +85,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 <?$APPLICATION->ShowPanel()?>
+<?
+$request = \Bitrix\Main\HttpApplication::getInstance()->getContext()->getRequest();
+$login = $request->get('USER_LOGIN');
+?>
 
 <!-- Facebook Pixel Code -->
+<?php if(!$login): ?>
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -102,6 +107,7 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=3241232509242880&ev=PageView&noscript=1"
 /></noscript>
+<?php endif; ?>
 <!-- End Facebook Pixel Code -->
 
 <!-- Facebook Pixel Code -->
