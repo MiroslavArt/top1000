@@ -2,8 +2,12 @@
 if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 	die();
 ?>
-<?require_once($_SERVER['DOCUMENT_ROOT'].'/local/templates/.default/header.php');?>
+<?require_once($_SERVER['DOCUMENT_ROOT'].'/local/templates/.default/header.php');
+$request = \Bitrix\Main\HttpApplication::getInstance()->getContext()->getRequest();
+$login = $request->get('USER_LOGIN');
+?>
 <!-- Facebook Pixel Code -->
+<?php if(!$login): ?>
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -19,6 +23,7 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=3241232509242880&ev=PageView&noscript=1"
 /></noscript>
+<?php endif; ?>
 <!-- End Facebook Pixel Code -->
 									<div class="center-wrapper">
 				<div class="page-content">
